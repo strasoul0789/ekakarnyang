@@ -1,0 +1,40 @@
+.summary {
+    font-size: 16px;
+}
+
+.summary .panel-heading {
+    border-bottom: 1px solid #2B3282;
+    color: #2B3282;
+    font-size: 15px;
+    text-align: center;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.summary span:not(.decimalExposantSmall):not(.currencyClass_th) {
+    display: block;
+}
+
+.summary .dimensions {
+    color: #777;
+    font-size: 14px;
+}
+
+.summary .table td:not(.price-col), .summary .service-table td:not(.price-col) {
+    vertical-align: middle;
+}
+
+.summary .desc-col {
+    width: calc(100% - 135px);
+}
+
+.price-col {
+    vertical-align: top;
+    width: 115px;
+    text-align: right;
+}

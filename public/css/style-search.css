@@ -1,0 +1,19 @@
+.bg{
+    background-image: linear-gradient(to bottom,#1329FF 0,#2B3282 100%);
+    background-repeat: repeat-x;
+}
+.btn-primary {
+    font-weight: bold;
+    box-shadow: 0 2px 1px rgba(0,0,0,0.5);
+}
+.btn-lg, .btn-group-lg>.btn {
+    padding: 7px 13px;
+    font-size: 18px;
+    line-height: 1.33333;
+    border-radius: 4px;
+}
+.btn-primary {
+    color: #222;
+    background-color: #FEF008;
+    border-color: transparent;
+}

@@ -1,0 +1,123 @@
+.step-container{
+	margin-left: -10px;
+	margin-right: -10px;
+	background-color: #fff;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	margin-top: 10px;
+}
+
+.step-container:before, .step-container:after {
+    content: "";
+    display: table;
+}
+
+*:before, *:after {
+    box-sizing: border-box;
+}
+
+.step-container:after {
+    clear: both;
+}
+
+.row-height {
+	display: table;
+	table-layout: fixed;
+	height: 100%;
+	width: 100%;
+}
+.step-part .one {
+    background-color: #2B3282;
+}
+
+@media (min-width: 992px) {
+    .col-md-height {
+        display: table-cell;
+        float: none;
+        height: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .step-part {
+        width: 25%;
+    }
+}
+
+.step-part {
+    background-position: left top;
+    background-repeat: repeat-y;
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+.inside-full-height {
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.step-number.one {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    width: 54px;
+    height: 100%;
+    vertical-align: middle;
+    background-color: #2B3282;
+}
+.step-number.two {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    width: 54px;
+    height: 100%;
+    vertical-align: middle;
+    background-color: #FEF008;
+}
+.step-number.three {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    width: 54px;
+    height: 100%;
+    vertical-align: middle;
+    background-color: #29E6E9;
+}
+.step-number.four {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    width: 54px;
+    height: 100%;
+    vertical-align: middle;
+    background-color: #24C20E;
+}
+.step-text {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 60px);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.step-text .first-line {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.step-text .second-line {
+    color: #2B3282;
+}
