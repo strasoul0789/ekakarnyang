@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /sitemap.xml
+Disallow: /.htaccess
+Disallow: /error_log
+Disallow: /assets
+Disallow: /comproser.json
+Sitemap: https://www.eakkarnyang.com/sitemap.xml
